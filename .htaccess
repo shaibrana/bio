@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^shaibirana.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.shaibirana.com$
+RewriteCond %{REQUEST_URI} !bio/
+RewriteRule (.*) /bio/$1 [L]
