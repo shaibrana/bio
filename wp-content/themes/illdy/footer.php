@@ -1,3 +1,4 @@
+[contact-form-7 id="6" title="Contact form 1"]
 <?php
 /**
  *    The template for dispalying the footer.
