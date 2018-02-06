@@ -1,7 +1,5 @@
 
 <?php
-
-[contact-form-7 id="6" title="Contact form 1"]
 /**
  *    The template for dispalying the footer.
  *
