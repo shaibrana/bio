@@ -279,7 +279,7 @@ $wp_customize->selective_refresh->add_partial(
 $wp_customize->add_setting(
 	$prefix . '_contact_bar_twitter_url', array(
 		'sanitize_callback' => 'esc_url_raw',
-		'default'           => esc_url_raw( '#' ),
+		'default'           => esc_url_raw( 'https://twitter.com/shaibirana' ),
 		'transport'         => 'postMessage',
 	)
 );
@@ -297,7 +297,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
 	$prefix . '_contact_bar_linkedin_url', array(
 		'sanitize_callback' => 'esc_url_raw',
-		'default'           => esc_url_raw( '#' ),
+		'default'           => esc_url_raw( 'https://www.linkedin.com/in/shoaib-manzoor-b30b8712/' ),
 		'transport'         => 'postMessage',
 	)
 );
@@ -351,7 +351,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
 	$prefix . '_contact_bar_instagram_url', array(
 		'sanitize_callback' => 'esc_url_raw',
-		'default'           => esc_url_raw( '#' ),
+		'default'           => esc_url_raw( 'https://www.instagram.com/shaibirana' ),
 		'transport'         => 'postMessage',
 	)
 );
