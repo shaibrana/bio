@@ -9,13 +9,9 @@
 <?php
 if ( current_user_can( 'edit_theme_options' ) ) {
 
-	$contact_bar_facebook_url  = get_theme_mod( 'illdy_contact_bar_facebook_url', esc_url( '#' ) );
-	$contact_bar_twitter_url   = get_theme_mod( 'illdy_contact_bar_twitter_url', esc_url( '#' ) );
-	$contact_bar_linkedin_url  = get_theme_mod( 'illdy_contact_bar_linkedin_url', esc_url( '#' ) );
-	$contact_bar_googlep_url   = get_theme_mod( 'illdy_contact_bar_googlep_url', esc_url( '#' ) );
-	$contact_bar_youtube_url   = get_theme_mod( 'illdy_contact_bar_youtube_url', esc_url( '#' ) );
-	$contact_bar_vimeo_url     = get_theme_mod( 'illdy_contact_bar_vimeo_url', esc_url( '#' ) );
-	$contact_bar_pinterest_url = get_theme_mod( 'illdy_contact_bar_pinterest_url', esc_url( '#' ) );
+	$contact_bar_facebook_url  = get_theme_mod( 'illdy_contact_bar_facebook_url', esc_url( 'https://www.facebook.com/ShaibiRana' ) );
+	$contact_bar_twitter_url   = get_theme_mod( 'illdy_contact_bar_twitter_url', esc_url( 'https://twitter.com/shaibirana' ) );
+	$contact_bar_linkedin_url  = get_theme_mod( 'illdy_contact_bar_linkedin_url', esc_url( 'https://www.linkedin.com/in/shoaib-manzoor-b30b8712/' ) );
 	$contact_bar_instagram_url = get_theme_mod( 'illdy_contact_bar_instagram_url', esc_url( 'https://www.instagram.com/shaibirana' ) );
 	$email                     = get_theme_mod( 'illdy_email', __( 'hello@shaibirana.com', 'illdy' ) );
 	$phone                     = get_theme_mod( 'illdy_phone', __( '+971 50 678 3844', 'illdy' ) );
@@ -25,7 +21,7 @@ if ( current_user_can( 'edit_theme_options' ) ) {
 	$general_entry             = get_theme_mod( 'illdy_contact_us_entry', __( 'And I will get in touch as soon as possible.', 'illdy' ) );
 	$general_contact_form_7    = get_theme_mod( 'illdy_contact_us_general_contact_form_7' );
 	$general_address_title     = get_theme_mod( 'illdy_contact_us_general_address_title', __( 'Address', 'illdy' ) );
-	$customer_support_title    = get_theme_mod( 'illdy_contact_us_general_customer_support_title', __( 'Customer Support', 'illdy' ) );
+	$customer_support_title    = get_theme_mod( 'illdy_contact_us_general_customer_support_title', __( 'Contact', 'illdy' ) );
 } else {
 	$contact_bar_facebook_url  = get_theme_mod( 'illdy_contact_bar_facebook_url' );
 	$contact_bar_twitter_url   = get_theme_mod( 'illdy_contact_bar_twitter_url' );
