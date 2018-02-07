@@ -152,7 +152,7 @@ msgstr ""
 
 #. Text in function
 #: illdy/sections/front-page-contact-us.php:9
-msgid "Contact us"
+msgid "Contact Me"
 msgstr ""
 
 #. Text in echo
