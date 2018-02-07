@@ -16,7 +16,7 @@ if ( current_user_can( 'edit_theme_options' ) ) {
 	$contact_bar_youtube_url   = get_theme_mod( 'illdy_contact_bar_youtube_url', esc_url( '#' ) );
 	$contact_bar_vimeo_url     = get_theme_mod( 'illdy_contact_bar_vimeo_url', esc_url( '#' ) );
 	$contact_bar_pinterest_url = get_theme_mod( 'illdy_contact_bar_pinterest_url', esc_url( '#' ) );
-	$contact_bar_instagram_url = get_theme_mod( 'illdy_contact_bar_instagram_url', esc_url( '#' ) );
+	$contact_bar_instagram_url = get_theme_mod( 'illdy_contact_bar_instagram_url', esc_url( 'https://www.instagram.com/shaibirana' ) );
 	$email                     = get_theme_mod( 'illdy_email', __( 'hello@shaibirana.com', 'illdy' ) );
 	$phone                     = get_theme_mod( 'illdy_phone', __( '+971 50 678 3844', 'illdy' ) );
 	$address1                  = get_theme_mod( 'illdy_address1', __( 'Al Jafiliya, ', 'illdy' ) );
