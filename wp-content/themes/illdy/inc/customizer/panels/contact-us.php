@@ -79,7 +79,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
 	$prefix . '_contact_us_general_title', array(
 		'sanitize_callback' => 'illdy_sanitize_html',
-		'default'           => __( 'Contact us', 'illdy' ),
+		'default'           => __( 'Contact Me', 'illdy' ),
 		'transport'         => 'postMessage',
 	)
 );
@@ -103,7 +103,7 @@ if ( get_theme_mod( $prefix . '_contact_us_entry' ) ) {
 	$wp_customize->add_setting(
 		$prefix . '_contact_us_entry', array(
 			'sanitize_callback' => 'wp_kses_post',
-			'default'           => __( 'And we will get in touch as soon as possible.', 'illdy' ),
+			'default'           => __( 'And I will get in touch as soon as possible.', 'illdy' ),
 			'transport'         => 'postMessage',
 		)
 	);
@@ -405,7 +405,7 @@ $wp_customize->add_control(
 $wp_customize->add_setting(
 	$prefix . '_email', array(
 		'sanitize_callback' => 'sanitize_text_field',
-		'default'           => __( 'contact@site.com', 'illdy' ),
+		'default'           => __( 'hello@shaibirana.com', 'illdy' ),
 		'transport'         => 'postMessage',
 	)
 );
@@ -429,7 +429,7 @@ $wp_customize->selective_refresh->add_partial(
 $wp_customize->add_setting(
 	$prefix . '_phone', array(
 		'sanitize_callback' => 'illdy_sanitize_html',
-		'default'           => __( '(555) 555-5555', 'illdy' ),
+		'default'           => __( '+971 50 678 3844', 'illdy' ),
 		'transport'         => 'postMessage',
 	)
 );
@@ -459,7 +459,7 @@ $wp_customize->add_setting(
 
 $wp_customize->add_control(
 	$prefix . '_address1', array(
-		'label'    => __( 'Address 1', 'illdy' ),
+		'label'    => __( 'Al Jafiliya', 'illdy' ),
 		'section'  => $prefix . '_contact_us',
 		'priority' => 13,
 	)
@@ -474,7 +474,7 @@ $wp_customize->selective_refresh->add_partial(
 $wp_customize->add_setting(
 	$prefix . '_address2', array(
 		'sanitize_callback' => 'illdy_sanitize_html',
-		'default'           => __( 'London, UK', 'illdy' ),
+		'default'           => __( 'Dubai, UAE', 'illdy' ),
 		'transport'         => 'postMessage',
 	)
 );
