@@ -13,7 +13,7 @@ if ( current_user_can( 'edit_theme_options' ) ) {
 	$contact_bar_twitter_url   = get_theme_mod( 'illdy_contact_bar_twitter_url', esc_url( 'https://twitter.com/shaibirana' ) );
 	$contact_bar_linkedin_url  = get_theme_mod( 'illdy_contact_bar_linkedin_url', esc_url( 'https://www.linkedin.com/in/shoaib-manzoor-b30b8712/' ) );
 	$contact_bar_instagram_url = get_theme_mod( 'illdy_contact_bar_instagram_url', esc_url( 'https://www.instagram.com/shaibirana' ) );
-	$email                     = get_theme_mod( 'illdy_email', __( 'hello@shaibirana.com', 'illdy' ) );
+	$email                     = get_theme_mod( 'illdy_email', __( 'shoaibmanzoor786@gmail.com', 'illdy' ) );
 	$phone                     = get_theme_mod( 'illdy_phone', __( '+971 50 678 3844', 'illdy' ) );
 	$address1                  = get_theme_mod( 'illdy_address1', __( 'Al Jafiliya, ', 'illdy' ) );
 	$address2                  = get_theme_mod( 'illdy_address2', __( 'Dubai, UAE', 'illdy' ) );
