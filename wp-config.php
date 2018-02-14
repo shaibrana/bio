@@ -26,7 +26,7 @@ define('DB_NAME', 'bio');
 define('DB_USER', 'wp_user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'e68f3f5963ee4cb60a726e8c67');
+define('DB_PASSWORD', 'lbqqQT0E,LFD');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
