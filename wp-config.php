@@ -20,6 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', '/home/admin/web/shaibirana.com/public_html/bio/wp-content/plugins/wp-super-cache/' );
 define('DB_NAME', 'bio');
 
 /** MySQL database username */

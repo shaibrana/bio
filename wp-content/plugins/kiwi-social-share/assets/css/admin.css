@@ -372,6 +372,9 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
 
 .sl-kiwi-networks em {
   font-style: normal;
+  position: absolute;
+  top: 3px;
+  left: 42px;
 }
 
 .sl-kiwi-networks ul {
@@ -388,6 +391,8 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
   padding-left: 20px;
   position: relative;
   margin-bottom: 0;
+  display: inline-block;
+  width: 98%;
 }
 
 .sl-kiwi-networks li:hover {
@@ -874,7 +879,7 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
 
 /* Kiwi networks */
 .sl-kiwi-networks li span {
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .sl-kiwi-networks li:hover .epsilon-ui-checkbox strong {
@@ -1102,6 +1107,7 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
   background: transparent;
   display: inline-block;
   color: #D1D1D1;
+  position: relative;
 }
 #sl-kiwi .epsilon-ui-color .wp-picker-container {
   position: relative;
@@ -1111,9 +1117,11 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
   z-index: 9999;
 }
 #sl-kiwi .epsilon-ui-color .wp-picker-container .wp-color-picker {
+  width: 69px;
   height: 23px;
+  z-index: 10;
   position: absolute;
-  top: 6px;
+  top: -1px;
   border: none;
   color: #D1D1D1;
 }
@@ -1130,7 +1138,10 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  padding-left: 19px;
+  padding-left: 30px;
+}
+#sl-kiwi .epsilon-ui-color .wp-picker-container .wp-color-result .wp-color-result-text {
+  display: none;
 }
 #sl-kiwi .epsilon-ui-color .wp-picker-container .wp-color-result:after {
   background: transparent;
@@ -2001,8 +2012,8 @@ ul[data-style="fit"].pill .sl-kiwi-item-add span {
   opacity: 1;
   border: none;
   text-align: center;
-  content: '\f023';
-  font-family: 'FontAwesome';
+  content: '\f160';
+  font-family: dashicons;
   color: #fff;
   display: inline-block;
   font-size: 11px;

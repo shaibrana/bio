@@ -1,10 +1,10 @@
-=== Plugin Name ===
+﻿=== Plugin Name ===
 
-Contributors: machothemes, cristian.raiber, silkalns
+Contributors: cristian.raiber, silkalns
 Tags: Facebook, facebook connect, facebook like, facebook share, facebook share icon, floating buttons, floating share, floating share icons, follow, google, Google Login, google plus, icons, increase shares, linkedin, linkedin share, media, page, pinterest, pinterest button, pinterest share, plugin, post to social networks, Reddit, reddit share, reddit sharing, Share, share button, share buttons, share counter, share icons, share links, share page, share post, sharebar, sharing, sharing icons, social, social app, social buttons, social comment, social comment facebook, social connect, social floating icons, social follow, social icon, social icons, social media, social media app, social media buttons, Social Media Plugins, social media share, social media sharing, social media tools, social network share, Social Plugins, social provider, social share, Social Share Buttons, social share icon, social share icons, social sharing, social sharing icons, social widget, stumbleupon sharing, tumblr share, tumblr sharing, twitter, twitter share, woocommerce, woocommerce connect, woocommerce sharing, yahoo
 Requires at least: 3.8
-Tested up to: 4.8
-Stable tag: 2.0.5
+Tested up to: 4.9
+Stable tag: 2.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,8 +35,8 @@ This is by far the best & easiest to use WordPress social media share plugin. A 
 A WordPress Social Media Widget solution is coming soon, stay tuned.
 
 **About us:**
-We are a young team of WordPress aficionados who love building WordPress plugins & <a href="https://www.machothemes.com/" target="_blank" title="Premium WordPress themes">Premium WordPress themes</a> over on our theme shop. We’re also blogging and wish to help our users find the <a href="https://www.machothemes.com/blog/best-cheap-wordpress-hosting/" target="_blank" title="Best Cheap WordPress Hosting">Best Cheap WordPress Hosting</a> available on the market. Check out our blog. 
 
+We are a young team of WordPress aficionados who love building WordPress plugins & <a href="https://www.machothemes.com/" rel="friend" target="_blank" title="Premium WordPress themes">Premium WordPress themes</a> over on our theme shop. We’re also blogging and wish to help our users find the best <a rel="friend" href="https://www.machothemes.com/blog/cheap-wordpress-hosting/" target="_blank" title="Cheap WordPress Hosting">Cheap WordPress hosting</a> & the best <a href="https://www.machothemes.com/blog/best-free-wordpress-bootstrap-themes/" title="Bootstrap WordPress themes" target="_blank" rel="friend">Bootstrap WordPress Themes</a>.
 
 
 == Installation ==
@@ -72,23 +72,6 @@ Floating Bar Filters
 
 
 == Changelog ==
-= 2.0.5 =
-* frontend meta tag was not generating properly
-
-= 2.0.4 =
-* Removed box shadow in the admin window
-* Changed how URLS are encoded for text
-* WhatsApp icon visibility is now handled with CSS ( wp_is_mobile function would not work on websites with cache )
-
-= 2.0.3 =
-* Saving settings would cause errors on some servers
-
-= 2.0.2 =
-* Ajax request failed on license activation
-
-= 2.0.1 =
-* Minor bugs
-
 = 2.0.0 =
 * Major upgrade
 

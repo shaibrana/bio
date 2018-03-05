@@ -100,18 +100,25 @@ final class Kiwi_Social_Share_View_Article_Bar extends Kiwi_Social_Share_View im
 	 *  * kiwi_article_bar_list_custom_class
 	 */
 	public function generate_frontend_bar() {
-		$output = '';
-		$class  = implode( ' ', $this->container_class );
-		$class  .= ' ' . $this->style;
-		$class  .= ' ' . apply_filters( 'kiwi_article_bar_list_custom_class', '' );
-		$output .= wp_kses_post( apply_filters( 'kiwi_before_article_bar', '' ) );
+		$output     = '';
+		$additional = '';
+		$class      = implode( ' ', $this->container_class );
+		$class      .= ' ' . $this->style;
+		$class      .= ' ' . apply_filters( 'kiwi_article_bar_list_custom_class', '' );
+		$output     .= wp_kses_post( apply_filters( 'kiwi_before_article_bar', '' ) );
+
+		$visibility = Kiwi_Social_Share_Helper::get_setting_value( 'mobile_only_sharing', false, 'kiwi_advanced_settings' );
+
+		if ( $visibility ) {
+			$additional = ' icons-visible-desktop';
+		}
 
 		$tracking = '';
 		if ( $this->tracking ) {
 			$tracking = ' data-tracking="true" data-tracking-container="article-bar" ';
 		}
 
-		$output .= '<ul class="kiwi-article-bar ' . esc_attr( $class ) . '"' . $tracking . '>';
+		$output .= '<ul class="kiwi-article-bar ' . esc_attr( $class . $additional ) . '"' . $tracking . '>';
 		$output .= wp_kses_post( apply_filters( 'kiwi_before_first_article_bar_item', '' ) );
 
 		foreach ( $this->networks['article_bar'] as $network ) {

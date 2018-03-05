@@ -85,6 +85,11 @@ ul.kiwi-article-bar.kiwi-article-bar-fit.pill li:last-child a {
   width: 100%;
   border-radius: 15px;
 }
+@media (min-width: 768px) {
+  ul.kiwi-article-bar.kiwi-article-bar-fit.icons-visible-desktop .kiwi-visible-desktop {
+    display: block;
+  }
+}
 
 ul.kiwi-floating-bar {
   position: fixed;

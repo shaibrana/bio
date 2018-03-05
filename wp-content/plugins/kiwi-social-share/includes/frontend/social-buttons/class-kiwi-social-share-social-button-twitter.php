@@ -37,7 +37,7 @@ final class Kiwi_Social_Share_Social_Button_Twitter extends Kiwi_Social_Share_So
 		$url = $this->get_current_page_url( $this->post_id );
 
 
-		return '//twitter.com/intent/tweet?text=' . urlencode( $desc ) . '&url=' . rawurlencode( $url ) . $additional;
+		return '//twitter.com/intent/tweet?text=' . $desc . '&url=' . rawurlencode( $url ) . $additional;
 	}
 
 	/**

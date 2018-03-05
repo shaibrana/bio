@@ -1,6 +1,8 @@
 *** Kiwi Pro Changelog ***
-= 2.0.5 =
-* Meta tag was not displayed properly in frontend
+= 2.0.6 =
+* WP 4.9 compatibility
+* Remove url encode on twitter button
+* WhatsApp button didn't look alright on fit
 
 = 2.0.4 =
 * Removed box shadow in the admin window
